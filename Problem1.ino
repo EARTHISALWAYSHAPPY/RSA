@@ -11,12 +11,12 @@ void setup() {
 
 void loop() {
   if (!digitalRead(IRpin)) {
-    analogWrite(RedPin, 0); //yellow 
-    analogWrite(GreenPin, 0);
-    analogWrite(BluePin, 255);
+    analogWrite(RedPin, 8); //yellow 
+    analogWrite(GreenPin, 30);
+    analogWrite(BluePin, 199);
   } else {
     analogWrite(RedPin, 0); //pink
-    analogWrite(GreenPin, 255);
-    analogWrite(BluePin, 0);
+    analogWrite(GreenPin, 235);
+    analogWrite(BluePin, 103);
   }
 }
