@@ -1,7 +1,7 @@
 // USE PWM pin(~) of Arduino UNO
-#define RedPin 9
+#define RedPin 11
 #define GreenPin 10
-#define BluePin 11
+#define BluePin 9
 #define Delaytime 100
 int Val_Red, Val_Green, Val_Blue;
 void setup()
