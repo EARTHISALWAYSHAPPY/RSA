@@ -4,9 +4,9 @@
 #define DHTPIN 4
 DHT11 dht11(DHTPIN);
     
-#define RedPin 9
+#define RedPin 11
 #define GreenPin 10
-#define BluePin 11
+#define BluePin 9
 void setup()
 {
   pinMode(IRpin, INPUT);
